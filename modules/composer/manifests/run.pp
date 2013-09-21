@@ -5,7 +5,7 @@ define composer::run (
 
   include composer
 
-  exec { "${composer::filename} ${command} --working-dir ${path} --no-interaction":
+  exec { "${composer::filename} ${command} --working-dir ${path} --no-interaction --dev":
     environment => "COMPOSER_HOME=${composer::install_location}",
     path        => ['/usr/bin', '/bin', $composer::install_location],
     require     => Package['php'],

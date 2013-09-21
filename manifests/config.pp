@@ -1,8 +1,8 @@
 $BB_USER = tothimre 
-$BB_PASS = qweasd
+$BB_PASS = 111111
 
 $GH_USER = tothimre 
-$GH_PASS = qweasd
+$GH_PASS = 111111
 
-$GIT_EMAIL = 'tothimre@gmail.com'
-$GIT_USER = 'Imre Toth'
+$GIT_EMAIL = 'youremail'
+$GIT_USER = 'yourname'

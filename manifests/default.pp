@@ -31,6 +31,7 @@ package { [
     'mongodb',
     'redis-server',
     'kdesdk-scripts',
+    'memcached',
   ]:
   ensure  => 'installed',
 }
