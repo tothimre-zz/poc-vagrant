@@ -76,7 +76,7 @@ php::module {
     'php5-memcached',
     'php5-odbc',
     'php5-json',
-    'php5-mysql'
+    'php5-mysql',
   ]:
   service => 'php5-fpm',
 }
