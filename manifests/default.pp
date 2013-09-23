@@ -1,7 +1,10 @@
 import 'config.pp' 
 import 'custom_get_poc.pp'
 group { 'puppet': ensure => present }
-Exec { path => [ '/bin/', '/sbin/', '/usr/bin/', '/usr/sbin/' ] }
+Exec { path => [ '/bin/', '/sbin/', '/usr/bin/', '/usr/sbin/' ],
+       environment => "COMPOSER_PROCESS_TIMEOUT=4000"
+     }
+
 File { owner => 0, group => 0, mode => 0644 }
 
 class {'apt':
