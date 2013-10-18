@@ -1,3 +1,8 @@
 .vagrant
 projectx
 xhprof
+
+flyingwhale/optionable/
+flyingwhale/poc-cache/
+flyingwhale/poc-sandbox/
+flyingwhale/poc/
